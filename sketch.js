@@ -91,7 +91,7 @@ function afterGame() {
   textSize(100);
   textAlign(CENTER);
   if (win)
-    text("COMPUTER WINS!", 300, 250);
+    text("YOU LOSE!", 300, 250);
   else
     text("AGAIN", 300, 250);
   textSize(20);
